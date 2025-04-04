@@ -27,6 +27,6 @@ module.exports = {
     "ja",
     "ar",
   ],
-  DEFAULT_LANGUAGE: "en",
-  DEFAULT_COUNTRY: "us",
+  DEFAULT_LANGUAGE: "fr",
+  DEFAULT_COUNTRY: "tn",
 };
