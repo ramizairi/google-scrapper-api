@@ -45,8 +45,8 @@ class GoogleApiService {
         q: query,
         cx:
           process.env.GOOGLE_SEARCH_ENGINE_ID ||
-          "017576662512468239146:omuauf_lfve", // You'll need a custom search engine ID
-        key: process.env.GOOGLE_API_KEY || "AIzaSyCInzo2vngLZjWXfL7x6yT6P2PFSvKUqrA", // You'll need an API key
+          "engine id:omuauf_lfve", // You'll need a custom search engine ID
+        key: process.env.GOOGLE_API_KEY || "api key", // You'll need an API key
         lr: `lang_${language}`,
         cr: country.toUpperCase(),
         fileType: fileType,
